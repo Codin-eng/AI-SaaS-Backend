@@ -1,0 +1,12 @@
+# backend
+backend/.env
+
+# frontend
+frontend/.env.local
+
+# general
+node_modules
+dist
+build
+.next
+.env
