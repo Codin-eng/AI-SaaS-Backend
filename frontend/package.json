@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "my-my",
-=======
+
   "name": "frontend",
->>>>>>> fabc418 (Initial commit from Create Next App)
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,13 +10,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@prisma/client": "^5.22.0",
-    "next": "16.2.6",
-    "prisma": "^5.22.0",
-=======
-    "next": "16.2.6",
->>>>>>> fabc418 (Initial commit from Create Next App)
+
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
