@@ -16,7 +16,7 @@ export default function AuthGuard({
     if (!token) {
       router.push("/login");
     }
-  }, []);
+  }, [router]);
 
   return <>{children}</>;
 }

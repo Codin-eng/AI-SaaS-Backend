@@ -1,9 +1,9 @@
 const asyncHandler = require("../utils/async");
-const { authSchema } = require("../validators/auth.validator");
+const { registerSchema, loginSchema } = require("../validators/auth.validator");
 const service = require("../auth/auth.service");
 
 exports.register = asyncHandler(async (req, res) => {
-  authSchema.parse(req.body);
+ registerSchema.parse(req.body);
 
   const user = await service.register(
     req.body.email,
@@ -14,7 +14,7 @@ exports.register = asyncHandler(async (req, res) => {
 });
 
 exports.login = asyncHandler(async (req, res) => {
-  authSchema.parse(req.body);
+  loginSchema.parse(req.body);
 
   const result = await service.login(
     req.body.email,
