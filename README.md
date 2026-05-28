@@ -29,6 +29,16 @@ A full-stack SaaS application built with:
 
 ---
 
+## 📸 Screenshots
+
+### Login Page
+![Login](./screenshots/login.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
 # 🏗️ Tech Stack
 
 ### Frontend
